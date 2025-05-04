@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Zeldinha";
+    src: url("./assets/fonts/ZeldaBOTW.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --azulMarinho: #021526;
+    --verdeEscuro: #0A4040;
+    --verde: #378C4C;
+    --musgo: #617355;
+    --verdeClaro: #A0D94A;
+    
+    --fonteTitulo: "Zeldinha";
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+
+  cursor: url("./assets/cursor/MasterSword.cur"), auto;
+}
+
+body h1{
+  color: white;
+  font-size: 2.5rem;
+  font-family: var(--fonteTitulo);
+}
+
+label,input{
+  cursor: url("./assets/cursor/MasterSword.cur"), auto;
+}
+
+button, a{
+  cursor: url("./assets/cursor/Hookshot-OoT.cur"), pointer;
+}

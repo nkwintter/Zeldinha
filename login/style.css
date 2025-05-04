@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardLogin{
+    position: absolute;
+    top: 50%; 
+    left: 13%; 
+    transform: translateY(-50%); 
+    background-image: linear-gradient(to top, var(--azulMarinho), var(--verdeEscuro), var(--verde)) ;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 20px var(--verdeClaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm{
+    size: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#loginForm img{
+    align-self: center;
+    margin: 1.5rem;
+}
+
+#loginForm input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0 0 8px var(--verdeClaro);
+}
+
+#loginForm label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--fonteTitulo);
+    color: var(--verdeClaro);
+}
+
+#btnSubmit{
+    padding: 0.8rem;
+    background-color: var(--verde);
+    font-size: 1rem;
+    color: var(azulMarinho);
+    border: none;
+    border-radius: 5px;
+}
+  
+#btnSubmit:hover {
+    background-color: var(--verdeClaro);
+    box-shadow: 0 0 8px var(--azulMarinho);
+}
